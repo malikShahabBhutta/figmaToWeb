@@ -62,10 +62,40 @@ header .navbar{
     color: #fff;
     border-radius: 5px;
     font-weight: bold;
+    word-wrap: break-word;
 
 }
 .navbar ul span a:hover{
     background-color: var(--main-clr);
     border: none;
     color: #fff;
+}
+.header-contant{
+    margin-top: 18%;
+    margin-left: 80px;
+    width: 50%;
+}
+.header-contant h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.header-contant span{
+    color: var(--start-clr);
+    font-weight: 600;
+}
+.toggle{
+    position: absolute;
+    top:0%;
+    right: 0%;
+    margin: 30px 60px;
+    background-color: var(--start-clr);
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 50px;
+    display: none;
 }
