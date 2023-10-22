@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500&family=Merriweather:wght@300&family=Montserrat:wght@100;500&family=Nunito:ital,wght@0,200;0,300;1,300&family=Sacramento&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+:root{
+    --main-clr:#fa8072;
+    --white-clr:#fff;
+    --main-clr2:#ffae5d;
+    --start-clr:#ffc21f;
+}
+body{
+    font-family: 'inter',sans-serif;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(18, 27, 74, 0.571),rgba(130, 20, 117, 0.292)),url(../img/bg.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+header .logo{
+    padding: 20px 15px;
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 2px;
+
+}
+header .logo  span{
+    font-weight: bold;
+}
+
+header .navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul{
+    padding-right:30px ;
+    padding-top: 10px;
+}
+.navbar ul li {
+    display: inline-block;
+    padding: 5px 10px;
+}
+.navbar ul li a{
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 20px;
+}
+.navbar ul li a:hover{
+    color: var(--main-clr);
+}
+.navbar ul span a{
+    padding: 10px 30px;
+    /* background-color: var(--main-clr2); */
+    border: 2px solid rgb(242, 185, 78);
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+.navbar ul span a:hover{
+    background-color: var(--main-clr);
+    border: none;
+    color: #fff;
+}
