@@ -1,0 +1,30 @@
+/* :root{
+    --main-clr:#fa8072;
+    --white-clr:#fff;
+    --main-clr2:#ffae5d;
+    --start-clr:#ffc21f;
+}
+
+@media only screen and (max-width:768px){
+    header{
+         padding: 0 0; 
+         height: 50vh; 
+    
+    }
+     header .navbar {
+        width: 100%;
+        width: 100%;
+        background-color: var(--main-clr2);
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+        
+
+    
+    header nav ul li  {
+        display:block; 
+        background-color: #fa8072;
+       
+    }
+        
+}  */
